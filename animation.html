@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Intro</title>
+    <style>
+        div {
+            width: 200px;
+            height: 300px;
+            padding-left: 20px;
+            margin: auto;
+
+        }
+
+        .div1 {
+            width: 210px;
+            height: 210px;
+            background-color: red;
+            margin: 100px;
+            padding: 100px;
+            border: 5px rgb(11, 11, 11) solid;
+            border-radius: 50%;
+            animation: anil 2s ease-in-out alternate-reverse infinite;
+        }
+
+        p {
+            height: 100px;
+            width: 600px;
+             margin: auto;    /* top/ left-right/ bottom  */ 
+            padding: 20px;
+            border-radius: 20%;
+            border: 4px brown solid;
+            background-color: aquamarine;
+            animation: Aura 3s ease-in-out alternate infinite;
+        }
+
+        @keyframes Aura {
+            0% {
+                background-color: aliceblue;
+                border-radius: 10%;
+                font-size: small;
+
+            }
+            50%{
+                background-color: blueviolet;
+                border-radius: 20%;
+            }
+            100%{
+                background-color: brown;
+                border-radius: 30%;
+                font-size: large;
+            }
+        }
+
+        @keyframes anil {
+            0% {
+                background-color: red;
+                border-radius: 10%;
+                box-shadow: 10px 5px 5px rgb(84, 244, 209);
+                padding: 20px;
+                width: 350px;
+                font-size: small;
+            }
+
+            20% {
+                background-color: rgb(13, 131, 234);
+                border-radius: 5%;
+            }
+
+            30% {
+                background-color: blueviolet;
+                border-radius: 15%;
+            }
+
+            100% {
+                background-color: rgb(240, 240, 163);
+                border-radius: 20%;
+                box-shadow: 10px 5px 5px black;
+                padding: 20px;
+                width: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1"><b><i>Anime</i></b>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis ullam deserunt maiores dolorum
+        repellat error quasi unde sed ad aliquid eligendi, fuga distinctio iure, quam saepe minima, esse reprehenderit.
+        Porro dolore minima nesciunt consequatur soluta quos perspiciatis consequuntur cupiditate vero similique saepe
+        natus, reprehenderit voluptatem, labore dolorem vel? Illo.
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusantium architecto et iusto rem laborum
+        commodi veniam, totam quis, doloremque voluptate necessitatibus dignissimos dolorem natus, sit sapiente? Nemo,
+        quos vitae.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .div1 {
+            height: 15vh;
+            width: auto;
+            background-color: rgb(142, 240, 167);
+        }
+
+        nav ol {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            list-style: none;
+
+        }
+
+        a {
+            text-decoration: none;
+            background-color: white;
+        }
+
+        .first {
+            margin: 20px;
+            padding: 20px;
+            height: 5vh;
+            width: 90vw;
+            border: white solid;
+            border-radius: 60px;
+            display: flex;
+            justify-content: space-between;
+            background-color: beige;
+            font-size: larger;
+            text-decoration: none;
+
+        }
+
+        div i {
+            margin: 20px;
+            padding-right: 2px;
+            background-color: green;
+            border-radius: 50%;
+            border: 2px green solid;
+            height: 3vh;
+            width: auto;
+        }
+
+        #phno {
+            margin-left: 1000px;
+            height: 10vh;
+            width: 15vw;
+            border: 2px green solid;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px black solid;
+        }
+
+        #phno:hover {
+            transition: ease-in-out cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            background-color: rgb(241, 37, 37);
+        }
+
+        ol li a {
+            height: auto;
+            width: auto;
+            background-color: beige;
+            border: 1px white solid;
+        }
+
+        ol li a:hover {
+            border-bottom: 2px black solid;
+        }
+
+        .img1 {
+            margin: 20px;
+            padding: 50px;
+            height: 50vh;
+            width: 50vw;
+            background-color: rgb(154, 217, 196);
+            border: 10px rgb(99, 172, 235) double;
+            border-radius: 20px;
+            overflow: hidden;
+            cursor: none;
+            animation: anime1 2s ease-in-out alternate-reverse infinite;
+            position: sticky;
+
+
+        }
+
+        @keyframes anime1 {
+            0% {
+                background-color: beige;
+                border-radius: 20px;
+            }
+
+            50% {
+                background-color: skyblue;
+                border-radius: 50px;
+            }
+
+            100% {
+                background-color: beige;
+                border-radius: 70px;
+            }
+
+        }
+
+        section img1 {
+            margin-left: 20px;
+            padding: 2px;
+            height: 1px;
+            width: auto;
+            border-radius: 50%;
+            top: 20px;
+            position: relative;
+
+
+        }
+
+        .image1 {
+            border-radius: 50%;
+            border: 2px brown dotted;
+        }
+
+        section p marquee {
+            margin: 15px;
+            padding-left: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            color: blueviolet;
+            text-decoration: dashed;
+            cursor: pointer;
+            position: absolute;
+            background-color: antiquewhite;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 64% 75%, 50% 75%, 0% 75%);
+
+        }
+
+        .btn1 {
+            margin-right: 50px;
+            padding: 20px;
+            height: 9vh;
+            width: 7vw;
+            border-radius: 20px;
+            background-color: rgb(253, 164, 164);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .img_mystory {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 100px;
+
+        }
+
+        .img2 {
+            margin-left: 100px;
+            padding: 20px;
+            height: 50%;
+            width: 50%;
+            border-radius: 50%;
+
+        }
+
+        .mystory {
+            margin: 2px;
+            padding: 2px;
+            height: 15%;
+            width: 30%;
+            border: 20px greenyellow solid;
+            border-radius: 50%;
+            background-color: rgb(155, 195, 230);
+            align-items: center;
+            text-align: center;
+            font-size: x-large;
+            text-shadow: 2px 2px;
+            color: rgb(66, 20, 233);
+
+
+        }
+
+        .img3 {
+            border-radius: 50%;
+            margin: 15px;
+            padding: 15px;
+            width: 50%;
+            height: 50%;
+        }
+
+        nav p {
+            font-size: medium;
+            background-color: beige;
+            text-shadow: none;
+            text-overflow: hide;
+            border-radius: 20%;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            height: 25vh;
+            width: 40vw;
+
+        }
+
+        div table {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div label {
+            color: blue;
+            font-size: larger;
+
+        }
+
+        .table {
+            margin: 25px;
+            padding: 20px;
+            border: 2px black solid;
+            border-radius: 20px;
+            height: 35vh;
+            width: 100vw;
+            background-color: rgb(236, 208, 199);
+            align-items: center;
+            text-align: center;
+            text-overflow: hide;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+        .trow {
+            margin: 20px;
+            padding: 5px;
+            width: 70vw;
+            border: 3px black dashed;
+            text-align: center;
+            align-items: center;
+
+        }
+        div strong {
+            background-color: aqua;
+
+        }
+        div strong p{
+            background-color: rgb(187, 143, 220);
+            gap: 20px;
+        }
+ 
+
+  

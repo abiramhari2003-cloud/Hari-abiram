@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        header{
+            height: 20vh;
+            width:100vw;
+            background-color: aqua;
+        }
+        main{
+            display: flex;
+            height: 70vh;
+            width: 100vw;
+            background-color: beige;
+        }
+        .left{
+            height: 100%;
+            width: 60%;
+            background-color: aquamarine;
+            
+
+        }
+        .left_top{
+            height:30%;
+            width:100%;
+            background-color: blue;
+        }
+        .left_bottom{
+            height: 70%;
+            width:100%;
+            background-color: chartreuse;
+        }
+        .right{
+           height: 100%;
+           width:40%;          
+        }
+        .right_top{
+            height: 70%;
+            width: 100%;
+            background-color: yellow;
+        }
+        .right_bottom{
+            height:30%;
+            width: 100%;
+            background-color: gray;
+        }
+        .media{
+            height: 20vh;
+            width:100vw;
+            display: flex;   
+            background-color: red;        
+        }
+        .media_left{
+            height: 100%;
+            width: 70%;
+            background-color: green;
+        }
+        .media_right{
+            height: 100% ;
+            width:50%;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>Header</header>
+    <main>
+        <div class="left">
+            <div class="left_top"></div>
+            <div class="left_bottom"></div>
+        </div>
+        <div class="right">
+            <div class="right_top"></div>
+            <div class="right_bottom"></div>
+        </div>
+    </main>
+    <section class="media">
+        <div class="media_left"></div>
+        <div class="media_right"></div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
